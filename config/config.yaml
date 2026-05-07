@@ -1,0 +1,13 @@
+aws:
+  default_region: "us-east-1"
+  instances:
+    - type: "t3.micro"
+      ami: "ami-12345678"
+
+lambda:
+  runtime: "python3.9"
+  timeout: 30
+
+logging:
+  level: "INFO"
+  file: "logs/automation.log"
