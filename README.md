@@ -20,7 +20,6 @@ cloud-automation-project/
 ├── .env.example          # Template for environment variables (SNS Topic ARN, etc.)
 ├── README.md             # Project documentation
 ├── requirements.txt      # Python dependencies
-├── backups/              # Directory for storing backups (kept via .gitkeep)
 ├── bash/                 # Directory for bash/powershell scripts
 ├── config/               # Project configuration files (YAML)
 ├── docs/                 # Additional usage documentation
