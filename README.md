@@ -100,8 +100,13 @@ python destroy_all.py
 ```
 
 ### Unified CLI Tool
-You can manage specific resources directly by their ID or Name using the new CLI:
+You can manage specific resources individually using the unified CLI:
 ```bash
+# Create individual resources (automatically saves to state.json)
+python manage.py create ec2
+python manage.py create s3
+python manage.py create lambda
+
 # Stop an EC2 Instance (Pause it without destroying)
 python manage.py stop ec2 i-0123456789abcdef0
 
